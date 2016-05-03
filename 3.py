@@ -14,7 +14,7 @@ print(len(pData))
 
 ## 3-b
 print(pData[len(pData)-10:len(pData)])
-"""
+
 ## 3-c
 import pylab as pl
 def movingaverage(x,length):
@@ -70,4 +70,3 @@ thinkplot.config(xlabel='frequency (Hz)',
                  ylabel='power',
                  xscale='log',
                  yscale='log')
-"""
